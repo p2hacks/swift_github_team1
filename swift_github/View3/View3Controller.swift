@@ -16,7 +16,10 @@ class View3Controller: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func changeButton(_ sender: Any) {
+        view.backgroundColor = UIColor.blue
+    }
+    
     /*
     // MARK: - Navigation
 
