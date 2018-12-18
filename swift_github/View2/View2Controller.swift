@@ -10,13 +10,17 @@ import UIKit
 
 class View2Controller: UIViewController {
 
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func changeButton(_ sender: Any) {
+        view.backgroundColor = UIColor.green
+    }
+    
     /*
     // MARK: - Navigation
 
