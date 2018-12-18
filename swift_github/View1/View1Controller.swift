@@ -10,6 +10,9 @@ import UIKit
 
 class View1Controller: UIViewController {
 
+    @IBAction func tapButton(_ sender: Any) {
+        view.backgroundColor = UIColor.cyan
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

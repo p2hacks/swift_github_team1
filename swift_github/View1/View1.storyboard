@@ -26,6 +26,9 @@
                                 <rect key="frame" x="184" y="503" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="hc5-Fh-ILt" eventType="touchUpInside" id="qnZ-Az-Q6Q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPG-Ed-sJv">
                                 <rect key="frame" x="184" y="324" width="45" height="21"/>
